@@ -1,6 +1,6 @@
 package com.example.memo.repository;
 
-import com.sparta.memo.entity.Memo;
+import com.example.memo.entity.Memo;
 import org.springframework.data.jpa.repository.JpaRepository;
 
 import java.util.List;

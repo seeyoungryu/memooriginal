@@ -1,5 +1,6 @@
 package com.example.memo.entity;
 
+import com.example.memo.dto.MemoRequestDto;
 import jakarta.persistence.Column;
 import jakarta.persistence.Entity;
 import jakarta.persistence.Id;
@@ -19,4 +20,14 @@ public class Memo {
     // length: 컬럼 길이 지정
     @Column(name = "contents", nullable = false, length = 500)
     private String contents;
+
+    public Memo(MemoRequestDto requestDto) {
+    }
+
+    public Memo() {
+
+    }
+
+    public void update(MemoRequestDto requestDto) {
+    }
 }
